@@ -74,6 +74,7 @@ const StyledNav = styled(motion.div)`
     input {
       width: 60%;
       padding: 0rem 0.5rem;
+      border-radius: none;
     }
     button {
       padding: 0rem 0.5rem;
