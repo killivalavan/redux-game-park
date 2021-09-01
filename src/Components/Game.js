@@ -7,7 +7,6 @@ import { popup } from "../Animation";
 import { useDispatch } from "react-redux";
 import { gameDetail } from "../Actions/detailAction";
 import { useHistory } from "react-router-dom";
-import { gameDetailsURL } from "../api";
 //Router
 import { Link } from "react-router-dom";
 
