@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 // Redux
 import { useSelector } from "react-redux";
-import { gameScreenshotURL } from "../api";
 // exit
 import { useHistory } from "react-router-dom";
 // Platform Images
@@ -82,6 +81,7 @@ const GameDetail = ({ pathID }) => {
                   {game.platforms &&
                     game.platforms.map((data) => (
                       <img
+                        alt={data.platform.name}
                         key={data.platform.id}
                         src={getPlatform(data.platform.name)}
                       ></img>
@@ -102,7 +102,7 @@ const GameDetail = ({ pathID }) => {
             <div className='gallery'>
               {screen.results &&
                 screen.results.map((screen) => (
-                  <img src={screen.image} key={screen.id} alt='image' />
+                  <img src={screen.image} key={screen.id} alt={screen.name} />
                 ))}
             </div>
           </Detail>
