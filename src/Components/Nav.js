@@ -37,7 +37,7 @@ const Nav = () => {
         <h1>Game Park</h1>
       </Logo>
       <form className='search'>
-        <input value={textInput} onChange={inputHandler} type='text' />
+        <input value={textInput} onChange={inputHandler} type='search' />
         <button onClick={submitSearch} type='submit'>
           Search
         </button>
@@ -59,6 +59,9 @@ const StyledNav = styled(motion.div)`
     margin-top: 1rem;
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
     outline: none;
+  }
+  input[type="search"] {
+    -webkit-appearance: none;
   }
   button {
     font-size: 1.5rem;
