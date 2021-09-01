@@ -168,7 +168,7 @@ const Stats = styled(motion.div)`
     display: inline;
   }
   @media screen and (max-width: 818px) {
-    h3 {
+    p {
       padding-right: 10rem;
     }
   }
