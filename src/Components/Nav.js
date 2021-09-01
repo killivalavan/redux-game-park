@@ -59,6 +59,7 @@ const StyledNav = styled(motion.div)`
     margin-top: 1rem;
     box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.6);
     outline: none;
+    border-radius: 0;
   }
   input[type="search"] {
     -webkit-appearance: none;
