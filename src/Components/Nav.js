@@ -61,6 +61,7 @@ const StyledNav = styled(motion.div)`
     outline: none;
     border-radius: 0;
   }
+  /* To Remove rounded input */
   input[type="search"] {
     -webkit-appearance: none;
   }
@@ -77,11 +78,13 @@ const StyledNav = styled(motion.div)`
     padding: 3rem 4rem;
     input {
       width: 60%;
-      padding: 0rem 0.5rem;
+      padding: 0.3rem 0.5rem;
       border-radius: none;
+      font-size: 1rem;
     }
     button {
-      padding: 0rem 0.5rem;
+      padding: 0.3rem 0.5rem;
+      font-size: 1rem;
     }
   }
 `;
