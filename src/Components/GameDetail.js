@@ -199,6 +199,7 @@ const Platforms = styled(motion.div)`
 
   @media screen and (max-width: 818px) {
     align-items: baseline;
+    justify-content: flex-start;
     img {
       margin: 0rem 0.5rem 0rem 0rem;
       width: 1.5rem;
