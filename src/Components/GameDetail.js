@@ -167,6 +167,11 @@ const Stats = styled(motion.div)`
     width: 1.5rem;
     display: inline;
   }
+  @media screen and (max-width: 818px) {
+    h3 {
+      padding-right: 10rem;
+    }
+  }
 `;
 
 const Info = styled(motion.div)`
@@ -193,8 +198,7 @@ const Platforms = styled(motion.div)`
   }
 
   @media screen and (max-width: 818px) {
-    justify-content: left;
-    align-items: flex-start;
+    align-items: baseline;
     img {
       margin: 0rem 0.5rem 0rem 0rem;
       width: 1.5rem;
