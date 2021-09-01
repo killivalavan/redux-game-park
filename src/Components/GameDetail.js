@@ -146,6 +146,10 @@ const Detail = styled(motion.div)`
   img {
     width: 100%;
   }
+  @media screen and (max-width: 818px) {
+    padding: 0rem 1rem 1rem 1rem;
+    margin: 2rem 0rem;
+  }
 `;
 
 const Stats = styled(motion.div)`
@@ -172,6 +176,10 @@ const Info = styled(motion.div)`
   }
   @media screen and (max-width: 818px) {
     text-align: left;
+    h3 {
+      font-size: 1rem;
+      font-weight: 500;
+    }
   }
 `;
 
@@ -188,10 +196,9 @@ const Platforms = styled(motion.div)`
     justify-content: left;
     align-items: flex-start;
     img {
-      margin: 0rem .5rem 0rem 0rem;
+      margin: 0rem 0.5rem 0rem 0rem;
       width: 1.5rem;
     }
-    h
   }
 `;
 
