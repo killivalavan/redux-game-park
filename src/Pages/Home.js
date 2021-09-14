@@ -24,7 +24,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(loadGames());
-  });
+  }, []);
 
   return (
     <GameList variants={fadeIn} initial='hidden' animate='show'>
